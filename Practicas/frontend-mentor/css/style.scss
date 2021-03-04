@@ -1,0 +1,52 @@
+/* Primary */
+$Dark-Blue: hsl(233, 26%, 24%);
+$Lim-Green: hsl(136, 65%, 51%);
+$Bright-Cyan: hsl(192, 70%, 51%);
+/* Neutral */
+$Grayish-Blue: hsl(233, 8%, 62%);
+$Light-Grayish-Blue: hsl(220, 16%, 96%);
+$Very-Light-Gray: hsl(0, 0%, 98%);
+$White: hsl(0, 0%, 100%);
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    background-color: red;
+    font-family: 'Public Sans', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+span{
+    font-weight: 400;
+}
+
+p {
+    font-weight: 300;
+}
+
+@media (min-width: 700px) { 
+
+}
+
+@media (min-width: 1440px) {
+
+}
+
+.navbar {
+    background-color:$Light-Grayish-Blue;
+        .logo{}
+        .menu {}
+        .btn-request {}
+}
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
